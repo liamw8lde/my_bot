@@ -3,4 +3,5 @@
 
     <xacro:include filename="robot_core.xacro" />
     <xacro:include filename="colours.xacro" />
+    <xacro:include filename="inertial_macros.xacro" />
 </robot>
