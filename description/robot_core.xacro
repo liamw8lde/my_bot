@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <joint name="chassis_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="chassis"/>
+    <origin xyz="-0.1 0 0"/>
+</joint>
+
+<link name="chassis">
+    <visual>
+        <origin xyz="0.15 0 0.075" rpy="0 0 0"/>
+        <geometry>
+            <box size="0.25 0.31 0.9"/>
+        </geometry>
+        <material name="white"/>
+    </visual>
+</link>
+
+</robot>
